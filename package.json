@@ -1,0 +1,25 @@
+{
+  "author": "Mozilla (https://mozilla.org/)",
+  "license": "MPL-2.0",
+  "name": "Dockerflow",
+  "description": "A demonstration of Cloud Services Dockerflow",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mozilla-services/dockerflow"
+  },
+  "homepage": "https://github.com/mozilla-services/dockerflow",
+  "bugs": "https://github.com/mozilla-services/dockerflow/issues",
+  "main": "server.js",
+  "engines": {
+    "node": ">=12.13.0"
+  },
+  "dependencies": {
+    "express": "4.17.1",
+    "mozlog": "^3.0.2"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "cat version.json; true"
+  }
+}
